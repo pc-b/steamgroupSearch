@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/steamgroupSearch/static/css/main.f9017534.css",
+    "main.js": "/steamgroupSearch/static/js/main.a93e282c.js",
+    "static/js/787.c6006e9a.chunk.js": "/steamgroupSearch/static/js/787.c6006e9a.chunk.js",
+    "index.html": "/steamgroupSearch/index.html",
+    "main.f9017534.css.map": "/steamgroupSearch/static/css/main.f9017534.css.map",
+    "main.a93e282c.js.map": "/steamgroupSearch/static/js/main.a93e282c.js.map",
+    "787.c6006e9a.chunk.js.map": "/steamgroupSearch/static/js/787.c6006e9a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9017534.css",
+    "static/js/main.a93e282c.js"
+  ]
+}
