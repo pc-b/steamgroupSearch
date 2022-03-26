@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from time import sleep
 
 # change dir to py folder
-os.chdir("./web-app/src/py")
+#os.chdir("./web-app/src/py")
 
 f = open("list.txt", "r")
 fi = open("groups.txt", "a", encoding="utf-8")
