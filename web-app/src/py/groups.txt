@@ -1,0 +1,8 @@
+GroupName:"???polse???" | GroupTag:polse DK | GroupURL:https://steamcommunity.com/groups/abe | IsPrivate:True
+GroupName:aaa | GroupTag:aaa | GroupURL:https://steamcommunity.com/groups/aaa | IsPrivate:True
+GroupName:Average at Best | GroupTag:[AaB] | GroupURL:https://steamcommunity.com/groups/aab | IsPrivate:True
+GroupName:Alsace All Cs | GroupTag:AAC | GroupURL:https://steamcommunity.com/groups/aac | IsPrivate:False
+GroupName:"???polse???" | GroupTag:polse DK | GroupURL:https://steamcommunity.com/groups/abe | IsPrivate:True
+GroupName:aaa | GroupTag:aaa | GroupURL:https://steamcommunity.com/groups/aaa | IsPrivate:True
+GroupName:Average at Best | GroupTag:[AaB] | GroupURL:https://steamcommunity.com/groups/aab | IsPrivate:True
+GroupName:Alsace All Cs | GroupTag:AAC | GroupURL:https://steamcommunity.com/groups/aac | IsPrivate:False
