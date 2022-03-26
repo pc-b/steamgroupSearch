@@ -1,5 +1,5 @@
 import './App.css';
-import JSONDATA from './groups.json'
+import JSONDATA from './py/groups.json'
 import{useState} from 'react'
 function App() 
 {
