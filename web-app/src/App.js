@@ -17,7 +17,7 @@ function App()
       {
         return val
       }
-      else if (val.tag.toLowerCase().includes(searchTerm.toLowerCase()))  
+      else if (val.GroupTag.toLowerCase().includes(searchTerm.toLowerCase()))  
       { /* and check if box ix checked */
         return val
       }
