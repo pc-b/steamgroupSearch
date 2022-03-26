@@ -26,7 +26,7 @@ function App()
     ).map((val, key)=> 
     {
       return <div>
-        {val.name} {val.tag} {val.url} {val.private}
+        {val.GroupName} {val.GroupTag} {val.GroupURL} {val.IsPrivate}
         </div>
     })}
     <header className="App-header"></header>

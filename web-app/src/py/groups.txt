@@ -6,3 +6,30 @@ GroupName:"???polse???" | GroupTag:polse DK | GroupURL:https://steamcommunity.co
 GroupName:aaa | GroupTag:aaa | GroupURL:https://steamcommunity.com/groups/aaa | IsPrivate:True
 GroupName:Average at Best | GroupTag:[AaB] | GroupURL:https://steamcommunity.com/groups/aab | IsPrivate:True
 GroupName:Alsace All Cs | GroupTag:AAC | GroupURL:https://steamcommunity.com/groups/aac | IsPrivate:False
+GroupName:"???polse???" | GroupTag:polse DK | GroupURL:https://steamcommunity.com/groups/abe | IsPrivate:True
+GroupName:aaa | GroupTag:aaa | GroupURL:https://steamcommunity.com/groups/aaa | IsPrivate:True
+GroupName:Average at Best | GroupTag:[AaB] | GroupURL:https://steamcommunity.com/groups/aab | IsPrivate:True
+GroupName:Alsace All Cs | GroupTag:AAC | GroupURL:https://steamcommunity.com/groups/aac | IsPrivate:False
+GroupName:armedanddangerous | GroupTag:-=AaD=- | GroupURL:https://steamcommunity.com/groups/aad | IsPrivate:True
+GroupName:AntiAggroEinheit | GroupTag:AAE | GroupURL:https://steamcommunity.com/groups/aae | IsPrivate:True
+GroupName:Agressive Autist Gaming | GroupTag:[A]AG | GroupURL:https://steamcommunity.com/groups/aag | IsPrivate:False
+GroupName:Les Acolytes Alcooliques D'Homer | GroupTag:A.A.H. | GroupURL:https://steamcommunity.com/groups/aah | IsPrivate:False
+GroupName:Husky Saxes | GroupTag:HS | GroupURL:https://steamcommunity.com/groups/aai | IsPrivate:True
+GroupName:ClannLess | GroupTag:Clanless | GroupURL:https://steamcommunity.com/groups/aaj | IsPrivate:True
+GroupName:Akatsuki After Kyuubi | GroupTag:{A.A.K.} | GroupURL:https://steamcommunity.com/groups/aak | IsPrivate:True
+GroupName:finex is kacken | GroupTag:aal | GroupURL:https://steamcommunity.com/groups/aal | IsPrivate:True
+GroupName:AA Mülheim Ruhr | GroupTag:[aAM] | GroupURL:https://steamcommunity.com/groups/aam | IsPrivate:True
+GroupName:All About Nothing | GroupTag:aan | GroupURL:https://steamcommunity.com/groups/aan | IsPrivate:True
+GroupName:Team aAo | GroupTag:aAo | GroupURL:https://steamcommunity.com/groups/aao | IsPrivate:False
+GroupName:Arctic Ass Pirates | GroupTag:AAP | GroupURL:https://steamcommunity.com/groups/aap | IsPrivate:True
+GroupName:N(E)xT.GENeRaTioN | GroupTag:ssssss | GroupURL:https://steamcommunity.com/groups/aaq | IsPrivate:False
+GroupName:All Australian Rejects | GroupTag:AAR | GroupURL:https://steamcommunity.com/groups/aar | IsPrivate:True
+GroupName:Australian Army Of Source | GroupTag:AAS| | GroupURL:https://steamcommunity.com/groups/aas | IsPrivate:True
+GroupName:.:AAT:. | GroupTag:AAT | GroupURL:https://steamcommunity.com/groups/aat | IsPrivate:True
+GroupName:Australian Army Unleashed (cs:s) | GroupTag:aAu. | | GroupURL:https://steamcommunity.com/groups/aau | IsPrivate:True
+GroupName:Arriba valencia!!! | GroupTag:AAV! | GroupURL:https://steamcommunity.com/groups/aav | IsPrivate:False
+GroupName:-AaW- | GroupTag:AaW | GroupURL:https://steamcommunity.com/groups/aaw | IsPrivate:True
+GroupName:~ [CH] ~ | GroupTag:~ [CH] ~ | GroupURL:https://steamcommunity.com/groups/aax | IsPrivate:True
+GroupName:Team *AaY*| | GroupTag:.Sc| | GroupURL:https://steamcommunity.com/groups/aay | IsPrivate:True
+GroupName:Aggravated Assult Against Zombies | GroupTag:AAZ | GroupURL:https://steamcommunity.com/groups/aaz | IsPrivate:True
+GroupName:Team @QPAD | GroupTag:Team @QPAD | GroupURL:https://steamcommunity.com/groups/aa- | IsPrivate:False
