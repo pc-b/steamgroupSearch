@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/steamgroupSearch/static/css/main.291fafa5.css",
-    "main.js": "/steamgroupSearch/static/js/main.b148a085.js",
+    "main.css": "/steamgroupSearch/static/css/main.6077afe5.css",
+    "main.js": "/steamgroupSearch/static/js/main.c88a3656.js",
     "static/js/787.c6006e9a.chunk.js": "/steamgroupSearch/static/js/787.c6006e9a.chunk.js",
     "index.html": "/steamgroupSearch/index.html",
-    "main.291fafa5.css.map": "/steamgroupSearch/static/css/main.291fafa5.css.map",
-    "main.b148a085.js.map": "/steamgroupSearch/static/js/main.b148a085.js.map",
+    "main.6077afe5.css.map": "/steamgroupSearch/static/css/main.6077afe5.css.map",
+    "main.c88a3656.js.map": "/steamgroupSearch/static/js/main.c88a3656.js.map",
     "787.c6006e9a.chunk.js.map": "/steamgroupSearch/static/js/787.c6006e9a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.291fafa5.css",
-    "static/js/main.b148a085.js"
+    "static/css/main.6077afe5.css",
+    "static/js/main.c88a3656.js"
   ]
 }
