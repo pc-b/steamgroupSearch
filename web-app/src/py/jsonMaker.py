@@ -1,7 +1,7 @@
 import json
 import os
 
-os.chdir("./web-app/src/py")
+#os.chdir("./web-app/src/py")
 
 def line_to_dict(split_Line):
     # Assumes that the first ':' in a line
@@ -20,7 +20,7 @@ def convert() :
     splitcontent = content.splitlines()
 
     # Split each line by pipe
-    lines = [line.split(' +-_--_-+ ') for line in splitcontent]
+    lines = [line.split(' 💚 ') for line in splitcontent]
 
     # Convert each line to dict
     lines = [line_to_dict(l) for l in lines]
