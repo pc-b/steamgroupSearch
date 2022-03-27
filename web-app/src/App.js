@@ -22,7 +22,7 @@ function App()
   
   return (
   <div className="App">
-    <p class="info">Pink text is group name, click to go to steam page</p>
+    <p class="info">Pink text is <strong>group name</strong>, click to go to steam page</p>
     <input type="text" class="search" placeholder="Search..." onChange={event => {setSearchTerm(event.target.value)}}/>
     <input type="checkbox"  id="public" class="public" name="box" onChange={handleChange}/>
     <label for="public">Public?</label>

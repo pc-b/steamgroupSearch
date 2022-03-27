@@ -15,6 +15,10 @@ a:link {
   color: pink;
 }
 
+strong {
+  color: pink;
+}
+
 a:visited {
   color: pink;
   background-color: transparent;
