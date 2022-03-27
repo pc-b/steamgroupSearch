@@ -35,7 +35,7 @@ for i in f:
         private = False
 
     # print formatted with : for json
-    out = "GroupName:" + groupName + " | " + "GroupTag:" + groupTag + " | " + "GroupURL:" + url + " | " + "IsPrivate:" + str(private) + "\n"
+    out = "GroupName:" + groupName + " +-_--_-+ " + "GroupTag:" + groupTag + " +-_--_-+ " + "GroupURL:" + url + " +-_--_-+ " + "IsPrivate:" + str(private) + "\n"
     fi.write(out)
 
     # print just for debug stuff

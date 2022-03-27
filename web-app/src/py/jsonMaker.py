@@ -15,18 +15,18 @@ def line_to_dict(split_Line):
     return line_dict
 
 def convert() :
-    f = open("groups.txt", "r")
+    f = open("groups.txt", "r", encoding="utf-8")
     content = f.read()
     splitcontent = content.splitlines()
 
     # Split each line by pipe
-    lines = [line.split(' | ') for line in splitcontent]
+    lines = [line.split(' +-_--_-+ ') for line in splitcontent]
 
     # Convert each line to dict
     lines = [line_to_dict(l) for l in lines]
 
     # Output JSON 
-    with open("groups.json", 'w') as fout:
+    with open("groups.json", 'w', ) as fout:
         json.dump(lines, fout, indent=4)
 
 convert()
