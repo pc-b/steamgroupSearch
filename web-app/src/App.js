@@ -22,16 +22,20 @@ function App()
   
   return (
   <div className="App">
+    <p class="info">Pink text is group name, click to go to steam page</p>
     <input type="text" class="search" placeholder="Search..." onChange={event => {setSearchTerm(event.target.value)}}/>
-    <input type="checkbox"  id="public" name="box" onChange={handleChange}/>
+    <input type="checkbox"  id="public" class="public" name="box" onChange={handleChange}/>
     <label for="public">Public?</label>
+
 
     
     {JSONDATA.filter((val)=>
     {
-      if (val.GroupTag.toLowerCase().substring(0, searchTerm.length).match(searchTerm))  
+      if (searchTerm !== "") {
+        if (val.GroupTag.toLowerCase().substring(0, searchTerm.length).match(searchTerm))  
       { /* and check if box ix checked */
         return val
+      }
       }
     }
     ).map((val, key)=> 
