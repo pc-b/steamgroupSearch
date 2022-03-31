@@ -5,13 +5,11 @@ from bs4 import BeautifulSoup
 from time import sleep
 
 # change dir to py folder
-#os.chdir("./web-app/src/py")
 
 f = open("list.txt", "r")
-fi = open("groups.txt", "a", encoding="utf-8")
+fi = open("groups.json", "a", encoding="utf-8")
 
 base = "https://steamcommunity.com/groups/"
-
 
 
 for i in f:
@@ -22,11 +20,18 @@ for i in f:
     # check if group exists
     if "An error was encountered while processing your request" in x.text:
         continue
+    if soup == None:
+        continue
 
     # get groupname and tag
     groupName = soup.find("title").text[28:]
     # delete quotes in group name if exist, they screw up json
-    groupTag = soup.find("span", class_="grouppage_header_abbrev").text
+    
+    groupTag = soup.find("span", class_="grouppage_header_abbrev")
+    if groupTag is not None:
+        groupTag = groupTag.text
+    else:
+        continue
 
     # check if private
     if "Request To Join" in x.text or "Membership by invitation only" in x.text:
@@ -35,11 +40,12 @@ for i in f:
         private = False
 
     # print formatted with : for json
-    out = "GroupName:" + groupName + " 💚 " + "GroupTag:" + groupTag + " 💚 " + "GroupURL:" + url + " 💚 " + "IsPrivate:" + str(private) + "\n"
+    out = '\t{\n\t\t"GroupName": ' + json.dumps(groupName) + ',\n\t\t"GroupTag": ' + json.dumps(groupTag) + ',\n\t\t"GroupUrl": ' + json.dumps(url) + ',\n\t\t"IsPrivate": ' + json.dumps(private) + "\n\t},\n"
     fi.write(out)
 
     # print just for debug stuff
     print("printing: " + groupTag)
+    sleep(0.25)
 
 
 f.close()
