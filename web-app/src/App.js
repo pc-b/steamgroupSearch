@@ -22,7 +22,9 @@ function App()
   
   return (
     <div className="App">
-      <p class="info">Pink text is <strong>group name</strong>, click to go to steam page</p>
+      <p class="info">Pink text is <strong>group name,</strong> click to go to steam page</p>
+      <p class="info">✅ group is <strong>public,</strong> ❌ group is <strong>private.</strong></p>
+
       <input type="text" class="search" placeholder="Search..." onChange={event => {setSearchTerm(event.target.value)}}/>
       <input type="checkbox"  id="public" class="public" name="box" onChange={handleChange}/>
       <label for="public">Public?</label>
@@ -30,21 +32,18 @@ function App()
       {JSONDATA.filter((val)=>
     {
       if (searchTerm !== "") {
-        if (val.GroupTag.toLowerCase().substring(0, searchTerm.length).match(searchTerm))  
+        if (val.GroupTag.toLowerCase().substring(0, searchTerm.length).match(searchTerm.toLowerCase()))  
       { /* and check if box ix checked */
-        if (handleChange()) {
-          return val.IsPrivate === "False"
-        }
-        else {
-          return val
-        }
+        return val
       }
       }
     }
     ).map((val, key)=> 
     {
       return <div>
-        <a href={val.GroupURL}>{val.GroupName}</a> {val.GroupTag} {val.IsPrivate}
+        <a href={val.GroupUrl}>{val.GroupName}</a> {val.GroupTag} {val.IsPrivate ? "❌" : "✅"} 
+      
+         
         </div>
     })}
         
