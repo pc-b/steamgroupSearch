@@ -10,7 +10,6 @@ function App()
   
   
   
-  
   function handleChange() {
     if (document.getElementById("public").checked === true) {
       return true
