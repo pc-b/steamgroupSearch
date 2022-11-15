@@ -1,4 +1,0 @@
-    {
-        "GroupName": "\"???polse???\"",
-        "GroupTag": "polse DK"
-    }
